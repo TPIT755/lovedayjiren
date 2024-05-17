@@ -81,7 +81,7 @@ $(function() {
     });
   });  
 // // NHẠC
-const Wussun_Music=["https://api.thanhdieu.com/random-music.php",];let index=Math.floor(Math.random()*Wussun_Music.length);const audio=new Audio(Wussun_Music[index]);function wussunplay(){audio.play()}document.addEventListener("click",wussunplay()),audio.addEventListener("ended",function(){index=(index+1)%Wussun_Music.length,audio.src=Wussun_Music[index],audio.play()});
-console.log("%c LoveDayWs V2 | Powered by WusTeam.Com", "color:#fff;background:linear-gradient(270deg,#986fee,#8695e6,#68b7dd,#18d7d3);padding:8px 15px;border-radius:15px");
-console.log("%c ZALO | 0968091844", "color:#fff;background:#000;padding:8px 15px;border-radius:15px"); src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+// const Wussun_Music=["https://api.thanhdieu.com/random-music.php",];let index=Math.floor(Math.random()*Wussun_Music.length);const audio=new Audio(Wussun_Music[index]);function wussunplay(){audio.play()}document.addEventListener("click",wussunplay()),audio.addEventListener("ended",function(){index=(index+1)%Wussun_Music.length,audio.src=Wussun_Music[index],audio.play()});
+// console.log("%c LoveDayWs V2 | Powered by WusTeam.Com", "color:#fff;background:linear-gradient(270deg,#986fee,#8695e6,#68b7dd,#18d7d3);padding:8px 15px;border-radius:15px");
+// console.log("%c ZALO | 0968091844", "color:#fff;background:#000;padding:8px 15px;border-radius:15px"); src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  
